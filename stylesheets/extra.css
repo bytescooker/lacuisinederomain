@@ -1,0 +1,29 @@
+[data-md-color-scheme="lacuisinederomain"] {
+  --md-primary-fg-color:        #F5763D;
+  --md-primary-fg-color--light: #F5763D;
+  --md-primary-fg-color--dark:  #F5763D;
+  --md-accent-fg-color: #3A3B3C;
+  --md-typeset-a-color: #F5763D;
+}
+
+.recipe-image {
+  max-width: 50% !important;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+
+.galery {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  img {
+    max-height: 256px;
+  }
+}
+
+.md-tag,.md-nav__item {
+  text-transform: capitalize;
+}
