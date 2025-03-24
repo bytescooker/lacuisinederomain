@@ -22,4 +22,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
+      - run: echo "www.lacuisinederomain.fr" > CNAME
       - run: mkdocs gh-deploy --force
